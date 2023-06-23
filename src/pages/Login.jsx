@@ -40,7 +40,7 @@ const LogIn = () => {
 
   return (
     <Helmet title='Login'>
-      <section>
+      <section className='log'>
         <Container>
           <Row>
 

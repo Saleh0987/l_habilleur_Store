@@ -1,3 +1,7 @@
+.log{
+  padding: 10px 0px;
+}
+
 .auth__form{
   background: var(--primary-color);
   padding: 40px;

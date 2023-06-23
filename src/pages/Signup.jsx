@@ -92,7 +92,7 @@ const Signup = () => {
 
   return (
     <Helmet title='Signup'>
-      <section>
+      <section className='log'>
         <Container>
           <Row>
             {loading ? (
