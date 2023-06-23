@@ -26,7 +26,7 @@ function Cart() {
               {
                 cartItems.length === 0 ? (<h2 className='fs-4 text-center'>No item added to the cart</h2>) :
                 (<table className='table bordered'>
-                <thead>
+                <thead className='text-center'>
                   <tr>
                     <th>Images</th>
                     <th>Title</th>
@@ -36,7 +36,7 @@ function Cart() {
                   </tr>
                 </thead>
 
-                <tbody>
+                <tbody className='text-center'>
                   {
                     cartItems.map((item, index) => (
                       <Tr item={item} key={index} />

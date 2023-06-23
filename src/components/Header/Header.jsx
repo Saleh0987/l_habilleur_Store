@@ -107,10 +107,12 @@ const Header = () => {
             <div className="nav__icons">
               {currentUser && location.pathname.startsWith('/') && !location.pathname.startsWith('/login') &&(
                 <>
-                  <span className="username">
-                    Hello {currentUser.displayName}
-                  </span>
+                  <h6 className="username">
+                    {currentUser.displayName}
+                  </h6>
+            
                   <div className="profile">
+                  
                     <motion.img
                       whileTap={{ scale: 1.2 }}
                       src={currentUser.photoURL || userIcon}
@@ -122,20 +124,20 @@ const Header = () => {
                       className="profile__actions"
                       ref={profileActionRef}
                       onClick={toggleProfileActions}>
-                      <span className="out" onClick={logout}>
+                      <NavLink className="out" onClick={logout}>
                         Logout
-                      </span>
+                      </NavLink>
                     </div>
                   </div>
                 </>
               )}
-
+                  
               {!currentUser && (
                 <div className="profile">
-                  <NavLink to="/signup" className="up">
+                  <NavLink to="/signup" className={({ isActive }) => isActive ? "up btn__active" : "up"} >
                     Signup
                   </NavLink>
-                  <NavLink to="/login" className="in">
+                  <NavLink to="/login" className={({ isActive }) => isActive ? "in btn__active" : "in"}>
                     Login
                   </NavLink>
                 </div>
