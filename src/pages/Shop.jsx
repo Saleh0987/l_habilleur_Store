@@ -43,6 +43,8 @@ function Shop() {
 
       setProductsData(fileredProducts);
     }
+
+    
   };
 
   const handleSearch = e => {
@@ -76,10 +78,10 @@ function Shop() {
             </Col>
             <Col lg='3' md='6' className='text-end'>
               <div className="filter__widget">
-                <select>
+                <select onChange={handleFilter}>
                   <option>Sort By</option>
-                  <option value="ascending">Ascending</option>
-                  <option value="descending">Descending</option>
+                  <option value="mobile">Ascending</option>
+                  <option value="watch">Descending</option>
                 </select>
               </div>
             </Col>

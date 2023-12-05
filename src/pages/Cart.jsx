@@ -15,6 +15,7 @@ function Cart() {
 
   return (
     <Helmet title='Cart'>
+      
       <CommonSection title='Shopping Cart' />
       
 

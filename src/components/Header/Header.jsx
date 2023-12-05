@@ -45,7 +45,10 @@ const Header = () => {
     }
   };
 
-  const logout = () => {
+const logout = () => {
+  const shouldLogout = window.confirm('Are you sure you want to log out?');
+
+  if (shouldLogout) {
     signOut(auth)
       .then(() => {
         toast.success('Logged out');
@@ -54,7 +57,8 @@ const Header = () => {
       .catch(err => {
         toast.error(err.message);
       });
-  };
+  }
+};
 
   useEffect(() => {
     window.addEventListener('scroll', stickyHeaderFunc);

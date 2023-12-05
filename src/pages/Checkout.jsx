@@ -70,7 +70,7 @@ const Checkout = () => {
     }
     
     dispatch(cartActions.clearCart());
-    toast.success('Done');
+    toast.success('Order placed successfully');
     setFormData({
       name: '',
       email: '',

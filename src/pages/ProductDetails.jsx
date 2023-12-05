@@ -113,7 +113,7 @@ function ProductDetails() {
                       <ul>
                         {reviews?.map((item, index) => (
                           <li key={index} className='mb-4'>
-                            <span>{item.rating} ( rating)</span>
+                            <span>{item.rating} (rating)</span>
                             <h6>Mohamed Saleh</h6>
                             <p>{item.text}</p>
                           </li>
