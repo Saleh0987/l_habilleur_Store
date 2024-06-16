@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bf0fcb13.css",
-    "main.js": "/static/js/main.8b5df67f.js",
+    "main.css": "/static/css/main.0c15ef62.css",
+    "main.js": "/static/js/main.27a9b9fb.js",
     "static/media/single-sofa-01.jpg": "/static/media/single-sofa-01.db24b9feed7582c4e98d.jpg",
     "static/media/arm-chair-03.jpg": "/static/media/arm-chair-03.3249f382638c86196acd.jpg",
     "static/media/single-sofa-03.jpg": "/static/media/single-sofa-03.0d976c067034347df78d.jpg",
@@ -33,11 +33,11 @@
     "static/media/wireless-01.png": "/static/media/wireless-01.1a76d777727c50ca0294.png",
     "static/media/watch-5.jpg": "/static/media/watch-5.5f8c8f8a46b23f7c1c0d.jpg",
     "index.html": "/index.html",
-    "main.bf0fcb13.css.map": "/static/css/main.bf0fcb13.css.map",
-    "main.8b5df67f.js.map": "/static/js/main.8b5df67f.js.map"
+    "main.0c15ef62.css.map": "/static/css/main.0c15ef62.css.map",
+    "main.27a9b9fb.js.map": "/static/js/main.27a9b9fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf0fcb13.css",
-    "static/js/main.8b5df67f.js"
+    "static/css/main.0c15ef62.css",
+    "static/js/main.27a9b9fb.js"
   ]
 }

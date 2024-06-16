@@ -69,6 +69,7 @@ const Tr = ({ item }) => {
   const dispatch = useDispatch();
 
   const deleteProduct = () => {
+    
     dispatch(cartActions.deleteItem(item.id));
   }
   return (
