@@ -1,6 +1,10 @@
 .product__item{
   cursor: pointer;
+}
 
+.product-img{
+  height: 250px;
+  object-fit: contain;
 }
 
 .product__info h3 a{

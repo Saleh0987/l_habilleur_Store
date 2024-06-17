@@ -31,7 +31,8 @@ const ProductCard = ({ item }) => {
           <motion.img 
             whileHover={{ scale: 0.9 }}
             src={item.imgUrl}
-            alt="product-img"
+              alt="product-img"
+              className='product-img'
           />
           </Link>
         </div>
